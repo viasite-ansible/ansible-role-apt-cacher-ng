@@ -1,8 +1,8 @@
+[![Build Status](https://travis-ci.org/viasite-ansible/ansible-role-telegraf.svg?branch=master)](https://travis-ci.org/viasite-ansible/ansible-role-telegraf)
+
 # Ansible Role for Apt-Cacher NG
 
-[![Build Status][1]][2]
-
-Installs and configures [Apt-Cacher NG][3] on Debian/Ubuntu servers and respective clients.
+Installs and configures [Apt-Cacher NG](https://www.unix-ag.uni-kl.de/~bloch/acng/) on Debian/Ubuntu servers and respective clients.
 
 ## Requirements
 
@@ -81,7 +81,3 @@ apt_cacher_ng_port: "3142"
 ## License
 
 MIT
-
-[1]: https://travis-ci.org/noplanman/ansible-apt-cacher-ng.svg?branch=master "Travis-CI Build Status"
-[2]: https://travis-ci.org/noplanman/ansible-apt-cacher-ng "Travis-CI Tests"
-[3]: https://www.unix-ag.uni-kl.de/~bloch/acng/ "Apt-Cacher NG"
