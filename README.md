@@ -36,6 +36,8 @@ apt_cacher_ng_remap_fedora: "file:fedora_mirrors"
 apt_cacher_ng_remap_epel:   "file:epel_mirrors"
 apt_cacher_ng_remap_slrep:  "file:sl_mirrors"
 apt_cacher_ng_remap_gentoo: "file:gentoo_mirrors.gz /gentoo ; file:backends_gentoo"
+apt_cacher_ng_security_user: ""
+apt_cacher_ng_security_password: ""
 ```
 
 ## Role Tags
